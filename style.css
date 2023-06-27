@@ -1,0 +1,253 @@
+/* Index.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    background-image: url(https://i.postimg.cc/gcf1H8fC/header2.png);
+    border: 3px solid white;
+    box-shadow: 5px 5px 30px 5px white;
+    padding: 20px;
+    color: cyan;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 30px;
+}
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/W4Cd15HW/main2.jpg);
+}
+
+.topnav {
+    text-align: right;
+    background-color: rgb(36, 136, 136);
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: 5px 5px 40px 5px white;
+}
+
+.topnav:hover::after {
+    background-color: red;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-right: 10px;
+
+}
+
+.text {
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Trirong", serif;
+    text-shadow: 3px 3px 3px rgb(128, 124, 124);
+    padding-top: 150px;
+    padding-bottom: 10px;
+
+}
+
+.paragraph {
+    color: cyan;
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px 3px rgb(128, 124, 124);
+}
+
+.all-button {
+    padding-top: 90px;
+}
+
+.appstore {
+    background-color: rgb(0, 122, 255);
+    text-decoration: none;
+    border-radius: 18px;
+    color: white;
+    height: 25px;
+}
+
+.messenger {
+    background-color: rgb(0, 122, 255);
+    text-decoration: none;
+    border-radius: 18px;
+    color: white;
+    height: 25px;
+
+}
+
+.appsupport {
+    color: cyan;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.wrap-items {
+    border: 2px solid white;
+    background-color: black;
+
+}
+
+.display {
+    margin: 5px;
+
+}
+
+.display-title {
+    color: white;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 1px;
+    background-color: black;
+
+}
+
+.display-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 200px;
+    border: 1px solid white;
+    background-color: rgb(19, 20, 20);
+}
+
+.footer-content {
+    background-image: url(https://i.postimg.cc/gcf1H8fC/header2.png);
+    padding: 20px;
+    border-radius: 18px;
+    color: white;
+
+}
+
+.footer-content h4 {
+    display: flex;
+    color: cyan;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+}
+
+.icon {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.footer-content p {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+
+/* Appstore.html*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.download-item {
+    margin: 5px;
+
+}
+
+.download-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: cyan;
+    border: 1px solid;
+    background-color: black;
+    border-color: white;
+
+}
+
+.download-item-image {
+    background-color: black;
+    height: 156px;
+    width: 156px;
+    justify-content: center;
+    display: block;
+    border: 2px solid white;
+
+}
+
+.click-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.download-button {
+    flex-grow: 2;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.download-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
